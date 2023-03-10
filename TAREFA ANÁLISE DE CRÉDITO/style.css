@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family:monospace;
+    background-image: url(img/screen-6.webp);
+
+}
+
+.principal{
+    background-color:#d4d3b7;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5%;
+    border-style:solid;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+

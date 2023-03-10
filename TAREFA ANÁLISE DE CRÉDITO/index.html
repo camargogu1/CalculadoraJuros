@@ -1,0 +1,47 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risco de Crédito</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="principal">
+        <h1>Calcule seu empréstimo!</h1>
+        <br>
+        <h2>Informe seus dados:</h2>
+        <input type="number" placeholder="Idade" id="idade"><br><br>
+        <span>
+            <h2>Nome negativado?</h2>
+        </span><br>
+        <select name="" id="negativado">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select> <br><br>
+        <span>
+            <h2>Vínculo Empregatício?</h2>
+        </span><br>
+        <input type="radio" name="emp" id="empreg" value="empreg"> Empregado
+        <input type="radio" name="emp" id="empreg" value="autonomo" > Autônomo
+        <input type="radio" name="emp" id="empreg" value="desempreg"> Desempregado
+        <br><br><br><br>
+        <input type="number" placeholder="Valor solicitado:" id="valor">
+        <input type="number" placeholder="Número de parcelas:" id="parcelas"><br><br><br><br>
+        <input type="text" placeholder="Valor a ser pago:" id="valor2" disabled="disabled"> ou
+        <input type="text" placeholder="12x" id="valor_parcelas" disabled="disabled"><br><br><br><br>
+        <button onclick="teste()">TESTE</button>
+        <button onclick="location.reload()">REINICIAR</button>
+        <button onclick="confirma()" id="botao" class="botao">CALCULAR</button>
+        
+    </div>
+</body>
+
+</html>
